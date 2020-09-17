@@ -2,7 +2,7 @@ package Test::Mojo::Role::HTTPstatus;
 
 use strict;
 use warnings;
-use 5.014;
+use 5.016; # inherited from Mojolicious
 
 use Mojo::Util qw(encode);
 

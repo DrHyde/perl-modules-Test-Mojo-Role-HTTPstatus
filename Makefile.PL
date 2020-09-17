@@ -1,3 +1,7 @@
+use 5.016; # inherited from Mojolicious
+use strict;
+use warnings;
+
 use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME         => 'Test::Mojo::Role::HTTPstatus',
@@ -12,6 +16,8 @@ WriteMakefile(
     PREREQ_PM    => {
         'Test::More'            => '0.96', # done_testing and subtests
         'Test::Mojo::WithRoles' => 0,
+        'Mojolicious::Lite'     => 0,
+        'Mojo::Util'            => 0,
         'Role::Tiny'            => 0,
     }
 );
