@@ -1,3 +1,4 @@
+language: perl
 matrix:
   include:
     - perl: 5.16
