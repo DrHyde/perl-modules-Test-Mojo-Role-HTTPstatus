@@ -5,3 +5,4 @@
 .appveyor.yml
 .cirrus.yml
 local/
+^../XML-Tiny/workflow-templates
